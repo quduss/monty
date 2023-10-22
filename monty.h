@@ -75,5 +75,6 @@ void pint_(stack_t **head_node, unsigned int line_number __attribute__((unused))
 void pop_(stack_t **head_node, unsigned int line_number);
 void swap_(stack_t **head_node, unsigned int line_number);
 void add_(stack_t **head_node, unsigned int line_number);
+void nop_(stack_t **head_node, unsigned int line_number);
 
 #endif
