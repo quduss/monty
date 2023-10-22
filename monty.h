@@ -71,5 +71,6 @@ void add_dnodeint(stack_t **head_node, const int i);
 void push_(stack_t **head_node, unsigned int line_number);
 void pall_(stack_t **head_node, unsigned int line_number);
 void free_globvar(void);
+void pint_(stack_t **head_node, unsigned int line_number __attribute__((unused)));
 
 #endif

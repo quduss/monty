@@ -9,6 +9,7 @@ void (*get_opcs(char *opcode))(stack_t **stack, unsigned int line_number)
 	instruction_t opc_and_func_arr[] = {
 		{"push", push_},
 		{"pall", pall_},
+		{"pint", pint_},
 		{NULL, NULL}
 	};
 	int j;
