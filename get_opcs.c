@@ -14,6 +14,7 @@ void (*get_opcs(char *opcode))(stack_t **stack, unsigned int line_number)
 		{"swap", swap_},
 		{"add", add_},
 		{"nop", nop_},
+		{"sub", sub_},
 		{NULL, NULL}
 	};
 	int j;
