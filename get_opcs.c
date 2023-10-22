@@ -15,6 +15,7 @@ void (*get_opcs(char *opcode))(stack_t **stack, unsigned int line_number)
 		{"add", add_},
 		{"nop", nop_},
 		{"sub", sub_},
+		{"div", div_},
 		{NULL, NULL}
 	};
 	int j;
